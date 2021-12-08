@@ -1,0 +1,322 @@
+
+@font-face {
+    font-family: 'font-1';
+    src: url(/font/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: 'font-2';
+    src: url(/font/Montserrat-Thin.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: 'font-1' Arial Helvetica, sans-serif;
+min-height: 100vh;
+text-align: center;
+}
+li{
+    list-style: none;
+    
+}
+a{text-decoration: none;}
+
+/* HEADER */
+header nav ul{
+display: flex; 
+align-items: center;
+justify-content: space-around;
+text-transform: uppercase;
+font-size: 1rem;
+color: black;
+margin-top: 10px;
+font-family: "font-1", Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+nav #btn-nav{
+    background: rgb(216, 212, 212);
+    padding: 5px 5px;
+    border-radius: 55px;
+}
+/* Bloc 1 */
+#bloc-1{
+ background: url(/img/bg.jpg) center/cover;
+text-align: center;
+color: white;
+padding: 80px;
+text-transform: uppercase;
+font-family: 'font-2', Arial, Helvetica, sans-serif;
+margin-top: 10px;
+}
+h1{
+    margin-top: 25px;
+    font-size: 1.5rem;
+}
+.btn-bloc1{
+    background: none;
+    padding: 11px;
+    margin-top: 25px;
+    width: 320px;
+    border: 1px solid white;
+    font-family: 'font-2', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255); 
+}
+#para1{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 40px;
+    width: 60%;
+    display: block;
+    margin: 40px auto;
+}
+/* bloc 2 */
+#bloc-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: black;
+    margin-top: 20px;
+    color: white;
+    padding: 50px;
+    font-size: 0.8rem;
+}
+
+#bloc-2 img{
+    display: block;
+    margin: 0 auto;
+}
+#bloc-2 h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'font-1', Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+   
+}
+#bloc-2 p{
+    font-family: "font-2";
+    text-align: center;
+    margin-top: 10px;
+} 
+.btn-bloc2{
+    margin-top: 30px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    padding: 3px;
+    width: 120px;
+}
+
+/* bloc 3 */
+ #bloc-3{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 80px;
+ }
+ #bloc-3 h2{
+     font-family: "font-1";
+     text-transform: uppercase;
+     font-weight:lighter;
+     letter-spacing: 5px;
+  
+ }
+ .btn-bloc3{
+     width: 150px;
+     background: none;
+     border: 1px solid black;
+     padding: 5px;
+     text-transform: uppercase;
+     font-family: 'font-1';
+     font-weight: lighter;
+     letter-spacing: 2px;
+
+ }
+ /* bloc 4 */
+ #bloc-4 {
+    display: grid;  
+    grid-template-columns: 33% 33% 34%;
+    text-align: center;
+    justify-items: center;
+    justify-content: space-between; 
+    padding-top: 90px;
+ }
+#bloc-4 > div{
+    padding: 30px;
+    position: relative;
+
+}
+ #bloc-4 img{
+    display: block;
+    margin: 0 auto;
+    box-shadow: 2px 2px 2px rgb(179, 174, 174);
+    width: 100%;
+    object-fit: cover;
+    height: 250px; 
+}
+#bloc-4 h5{
+    font-family: "font-1",Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    text-align: left;
+}
+
+#bloc-4 p{
+    display: block;
+    max-width: 300px;
+    margin-top: 10px;
+    text-align: left;
+   
+}
+
+.btn-bloc4{
+    position: absolute;
+    bottom: -30px;
+    left:30px ;
+    background:none;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "font-1", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.6rem;
+}
+/* bloc 5 */
+ #bloc-5{
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     justify-items: center;
+     margin-top: 150px;
+ }
+
+ #bloc-5 > div{
+     width: 100%;
+ }
+ #bloc-5 div h3{
+     font-size: 1rem;
+     text-transform: uppercase;
+     text-align: left;
+     font-family: "font-1",Arial, Helvetica, sans-serif;
+ }
+ #infos-pratiques h3{
+font-family: "font-1",Arial, Helvetica, sans-serif;
+font-size: 1rem;
+ }
+#infos-pratiques ul li{
+    margin-top: 13px;
+    color: rgb(139, 139, 255);
+    text-align: left;
+    font-size: 1rem;
+}
+#parents{
+ text-align: left;
+}
+#parents h3{
+    font-family: "font-2", Arial, Helvetica, sans-serif; 
+    font-size: 0.8rem;
+}
+#parents p{
+    font-family: "font-1", Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-top: 15px;
+    font-size: 0.8rem;
+    letter-spacing: 0.9px;
+}
+.btn-bloc5{
+    margin-top: 30px;
+    background: none;
+    border: none;
+    color: rgb(139, 139, 255); 
+}
+
+#nous-contacter{
+text-align: left;
+position: relative;
+}
+#nous-contacter ul{
+    margin-top: 15px;
+    font-family: "font-1", Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 0.8rem;
+}
+#nous-contacter h3{
+    margin-top: 15px;
+}
+#reseaux{
+    display: grid;
+    grid-template-columns: 8% 8% 8% 8%;   
+}
+#nous-contacter span{
+font-family: "font-1", Arial, Helvetica, sans-serif;
+font-weight: lighter;
+font-size: 0.8rem;
+position: absolute;
+bottom:0px;
+}
+
+#bloc-6::before{
+    content: "";
+    width: 1100px;
+    height: 2px;
+    position: absolute;
+    background: rgb(240, 235, 235);
+    top:-45px;
+}
+/* bloc 6 */
+ #bloc-6{
+     display: flex;
+     justify-content: space-around;
+     text-align: center;
+     align-items: center;
+     margin-top: 100px;
+     width: 100%;
+     position: relative;
+ }
+ #logo-presse img{
+    padding: 10px;
+ }
+ #bloc-6 #presse{
+text-align: left;
+width: 30%;
+ }
+ #presse h5{
+    font-family: "font-1", Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+text-transform: uppercase;
+ }
+ #presse p{
+    font-family: "font-1", Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    margin-top: 10px;
+   
+ }
+/* footer */
+ footer{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center ;
+     background: black; 
+     color: white;
+     padding: 45px;
+     margin-top: 60px;
+     width: 100%;
+ }
+ footer h3{
+    font-family: "font-1",Arial, Helvetica, sans-serif;
+     text-align: center;
+ }
+ footer ul {
+     display: flex;
+     justify-content: space-around;
+     align-items: flex-end;
+     margin-top: 15px;
+ }
+ footer ul li{
+     padding: 0px 18px;
+ }
