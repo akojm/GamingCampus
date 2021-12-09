@@ -22,6 +22,10 @@ li{
     
 }
 a{text-decoration: none;}
+p{
+    font-family: 'font-2',Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
 
 /* HEADER */
 header nav ul{ 
@@ -213,6 +217,7 @@ width: 100%;
      text-transform: uppercase;
      text-align: left;
      font-family: "font-1",Arial, Helvetica, sans-serif;
+     margin-top: 15px;
  }
  #infos-pratiques h3{
 font-family: "font-1",Arial, Helvetica, sans-serif;
@@ -267,13 +272,14 @@ position: relative;
     display: flex;
     justify-content: space-around; 
     width: 50%;
+  
 }
 #nous-contacter span{
 font-family: "font-1", Arial, Helvetica, sans-serif;
 font-weight: lighter;
-font-size: 0.8rem;
+font-size: 0.1rem;
 position: absolute;
-bottom:0px;
+margin-top: 20px;
 }
 
 #bloc-6::before{
