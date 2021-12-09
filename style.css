@@ -18,8 +18,7 @@ min-height: 100vh;
 text-align: center;
 }
 li{
-    list-style: none;
-    
+    list-style: none; 
 }
 a{text-decoration: none;}
 p{
@@ -43,6 +42,7 @@ header nav ul li{
     font-family: "font-1", Arial, Helvetica, sans-serif;
     font-size: 0.9rem;
     font-weight: bold;
+    cursor: pointer;
 }
 nav #btn-nav{
     background: rgb(216, 212, 212);
@@ -75,7 +75,13 @@ h1{
     font-weight: bold;
     text-transform: uppercase;
     color: rgb(255, 255, 255); 
+    cursor: pointer;
 }
+.btn-bloc1:hover{
+background: rgb(245, 242, 242);
+color: black;
+}
+
 #para1{
     font-size: 1rem;
     text-align: center;
@@ -97,17 +103,21 @@ h1{
     padding: 50px;
     font-size: 0.8rem;
 }
-
 #bloc-2 img{
     display: block;
     margin: 0 auto;
 }
+.btn-bloc2:hover{
+    background: rgb(245, 242, 242);
+color: black;
+cursor: pointer;
+}
+
 #bloc-2 h3{
     text-transform: uppercase;
     font-weight: bold;
     font-family: 'font-1', Arial, Helvetica, sans-serif;
-    margin-top: 30px;
-   
+    margin-top: 30px; 
 }
 #bloc-2 p{
     font-family: "font-2", Arial, Helvetica, sans-serif;
@@ -148,8 +158,13 @@ background: rgb(247, 245, 245);
      font-family: 'font-1';
      font-weight: lighter;
      letter-spacing: 2px;
-
  }
+ .btn-bloc3:hover{
+     background:rgb(0, 0, 0);
+     color: rgb(255, 255, 255);
+     cursor: pointer;
+ }
+ 
  /* bloc 4 */
  #bloc-4 {
     display: grid;  
@@ -163,7 +178,13 @@ background: rgb(247, 245, 245);
 #bloc-4 > div{
     padding: 30px;
     position: relative;
+
+}/*Chevron */
+.fas{
+font-size: 0.5rem;
+transform: translateX(30%);
 }
+
  #bloc-4 img{
     display: block;
     margin: 0 auto;
@@ -199,12 +220,11 @@ background: rgb(247, 245, 245);
     font-weight: bold;
     font-size: 0.6rem;
 }
-/* bloc 5 */
 
+/* bloc 5 */
  #bloc-5{
      display: flex;
-     text-align: center;
-     
+     text-align: center; 
      justify-items: center;
      justify-content: space-around;
      margin-top: 150px;
@@ -222,6 +242,21 @@ background: rgb(247, 245, 245);
      font-family: "font-1",Arial, Helvetica, sans-serif;
      margin-top: 15px;
  }
+
+ .btn-bloc5{
+    margin-top: 30px;
+    background: none;
+    border: none;
+    color: rgb(139, 139, 255); 
+}
+.btn-bloc5:hover{
+    color: black;
+    cursor: pointer;
+}
+.btn-bloc4:hover {
+color: gray;
+cursor: pointer;
+}
  #infos-pratiques h3{
 font-family: "font-1",Arial, Helvetica, sans-serif;
 font-size: 1rem;
@@ -246,12 +281,6 @@ font-size: 1rem;
     font-size: 0.8rem;
     letter-spacing: 0.9px;
 }
-.btn-bloc5{
-    margin-top: 30px;
-    background: none;
-    border: none;
-    color: rgb(139, 139, 255); 
-}
 
 #nous-contacter{
 text-align: left;
@@ -264,18 +293,15 @@ position: relative;
     margin-top: 15px;
     font-family: "font-2", Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    
 }
 #nous-contacter li{
  font-size: 0.8rem;
-
-
-}#nous-contacter li{
+}
+#nous-contacter li{
     margin-top: 10px;
     font-family: 'font-2', Arial, Helvetica, sans-serif;
     font-weight: bolder;
 }
-
 #reseaux{
     display: flex;
     justify-content: space-around; 
@@ -290,7 +316,6 @@ position: absolute;
 font-size: 0.7rem;
 bottom: 20px;
 }
-
 #bloc-6::before{
     content: "";
     width: 80%;
@@ -299,6 +324,7 @@ bottom: 20px;
     background: rgb(240, 235, 235);
     top:-45px;
 }
+
 /* bloc 6 */
  #bloc-6{
      display: flex;
@@ -331,6 +357,7 @@ text-transform: uppercase;
     font-family: "font-1", Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
  }
+
 /* footer */
  footer{
      display: flex;
@@ -360,7 +387,6 @@ text-transform: uppercase;
 
 /* Media queries */
 
-
 @media (max-width: 880px){
     #bloc-1 img{
         width: 80%;
@@ -373,6 +399,7 @@ text-transform: uppercase;
         padding: 1px 3px;
         border-radius: 30px;
     }
+}
 
 @media (max-width: 662px) {
     
