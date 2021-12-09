@@ -1,11 +1,11 @@
 
 @font-face {
     font-family: 'font-1';
-    src: url(/font/Montserrat-Medium.ttf);
+    src: url(./fonts/Montserrat-Medium.ttf);
 }
 @font-face {
     font-family: 'font-2';
-    src: url(/font/Montserrat-Thin.ttf);
+    src: url(./fonts/Montserrat-Thin.ttf);
 }
 *{
     margin: 0;
@@ -24,7 +24,7 @@ li{
 a{text-decoration: none;}
 p{
     font-family: 'font-2',Arial, Helvetica, sans-serif;
-    font-weight: lighter;
+    font-weight:700;
 }
 
 /* HEADER */
@@ -127,7 +127,6 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 padding: 80px;
-
 width: 100%;
 
  }
@@ -181,6 +180,7 @@ width: 100%;
     max-width: 300px;
     margin-top: 10px;
     text-align: left;
+    font-size: 0.8rem;
    
 }
 
@@ -348,10 +348,11 @@ text-transform: uppercase;
      padding: 0px 18px;
  }
 
-/* Mobile */
+/* Media queries */
 
 @media (max-width: 662px) {
     
+
     header nav{
         display: none;
     }
@@ -378,22 +379,17 @@ text-transform: uppercase;
     #bloc-4{
        display: inline-block;
     }
+    .btn-bloc4{
+        bottom: 1px;
+    }
 
     #bloc-5{
         display: none;
     }
-
     #bloc-6{
         display: none;
     }
-
-    footer{
-        width: 100%;
-    }
-    
-    footer ul{
-        display: flex;
-      flex-wrap: nowrap;
-    
-    }
+footer ul{
+    padding: 15px 0px;
+}
 }
