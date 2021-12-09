@@ -37,12 +37,11 @@ font-size: 1rem;
 color: rgb(0, 0, 0);
 margin-top: 10px;
 font-family: "font-1", Arial, Helvetica, sans-serif;
-font-weight: bold;
 }
 header nav ul li{
-    color: black;
-    font-family: "font-2", Arial, Helvetica, sans-serif;
+    font-family: "font-1", Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
+    font-weight: bold;
 }
 nav #btn-nav{
     background: rgb(216, 212, 212);
@@ -126,7 +125,7 @@ h1{
 display: flex;
 justify-content: space-around;
 align-items: center;
-padding: 80px;
+padding: 50px;
 width: 100%;
 
  }
@@ -237,8 +236,8 @@ font-size: 1rem;
     font-size: 0.8rem;
 }
 #parents p{
-    font-family: "font-1", Arial, Helvetica, sans-serif;
-    font-weight: lighter;
+    font-family: "font-2", Arial, Helvetica, sans-serif;
+    font-weight: bold;
     padding-top: 15px;
     font-size: 0.8rem;
     letter-spacing: 0.9px;
@@ -254,32 +253,38 @@ font-size: 1rem;
 text-align: left;
 position: relative;
 }
+#nous-contacter span{
+   margin-top: 20px;
+}
 #nous-contacter ul{
     margin-top: 15px;
-    font-family: "font-1", Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    font-size: 0.8rem;
+    font-family: "font-2", Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
 }
 #nous-contacter li{
  font-size: 0.8rem;
 
 
 }#nous-contacter li{
-    margin-top: 8px;
+    margin-top: 10px;
+    font-family: 'font-2', Arial, Helvetica, sans-serif;
+    font-weight: bolder;
 }
 
 #reseaux{
     display: flex;
     justify-content: space-around; 
-    width: 50%;
-  
+    width: 50%;   
 }
-#nous-contacter span{
-font-family: "font-1", Arial, Helvetica, sans-serif;
-font-weight: lighter;
-font-size: 0.1rem;
+#reseaux li{
+    margin-top: -10px;
+}
+#nous-contacter p{
+font-family: 'font-2', Arial, Helvetica, sans-serif;
 position: absolute;
-margin-top: 20px;
+font-size: 0.7rem;
+bottom: 20px;
 }
 
 #bloc-6::before{
@@ -313,9 +318,10 @@ width: 30%;
 text-transform: uppercase;
  }
  #presse p{
-    font-family: "font-1", Arial, Helvetica, sans-serif;
+    font-family: "font-2", Arial, Helvetica, sans-serif;
     font-size: 0.8rem;
     margin-top: 10px;
+    font-weight: bolder;
  }
  #nous-contacter span{
     font-family: "font-1", Arial, Helvetica, sans-serif;
