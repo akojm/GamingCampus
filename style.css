@@ -127,6 +127,7 @@ justify-content: space-around;
 align-items: center;
 padding: 50px;
 width: 100%;
+background: rgb(247, 245, 245);
 
  }
  #bloc-3 h2{
@@ -154,11 +155,11 @@ width: 100%;
     justify-items: center;
     justify-content: space-between; 
     line-height: 18px;
+    background: rgb(247, 245, 245);
  }
 #bloc-4 > div{
     padding: 30px;
     position: relative;
-
 }
  #bloc-4 img{
     display: block;
@@ -358,7 +359,6 @@ text-transform: uppercase;
 
 @media (max-width: 662px) {
     
-
     header nav{
         display: none;
     }
