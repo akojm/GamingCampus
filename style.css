@@ -24,9 +24,11 @@ a{text-decoration: none;}
 p{
     font-family: 'font-2',Arial, Helvetica, sans-serif;
     font-weight:700;
+    font-size: 0.8rem;
 }
 
 /* HEADER */
+
 header nav ul{ 
 display: flex; 
 align-items: center;
@@ -140,8 +142,6 @@ justify-content: space-around;
 align-items: center;
 padding: 50px;
 width: 100%;
-background: rgb(247, 245, 245);
-
  }
  #bloc-3 h2{
      font-family: "font-1";
@@ -173,12 +173,10 @@ background: rgb(247, 245, 245);
     justify-items: center;
     justify-content: space-between; 
     line-height: 18px;
-    background: rgb(247, 245, 245);
  }
 #bloc-4 > div{
     padding: 30px;
     position: relative;
-
 }/*Chevron */
 .fas{
 font-size: 0.5rem;
@@ -408,7 +406,7 @@ text-transform: uppercase;
     }
 }
 
-@media (max-width: 662px) {
+@media (max-width: 680px) {
     
     header nav{
         display: none;
