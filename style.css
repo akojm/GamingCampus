@@ -108,13 +108,14 @@ color: black;
     font-size: 0.8rem;
 }
 #bloc-2 > div {
-    width: 100%;
+    width: 30%;
     margin: 0 auto;
     padding: 0 10px;
 }
 #bloc-2 img{
     display: block;
     margin: 0 auto;
+    width: 100%;
 }
 .btn-bloc2:hover{
     background: rgb(245, 242, 242);
