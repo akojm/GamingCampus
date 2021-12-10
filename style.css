@@ -250,7 +250,7 @@ transform: translateX(30%);
     color: rgb(139, 139, 255); 
 }
 .btn-bloc5:hover{
-    color: black;
+    color:gray;
     cursor: pointer;
 }
 .btn-bloc4:hover {
@@ -266,6 +266,10 @@ font-size: 1rem;
     color: rgb(139, 139, 255);
     text-align: left;
     font-size: 1rem;
+}
+#infos-pratiques ul li:hover{
+color: gray;
+cursor: pointer;
 }
 #parents{
  text-align: left;
@@ -399,6 +403,9 @@ text-transform: uppercase;
         padding: 1px 3px;
         border-radius: 30px;
     }
+    #reseaux{
+        width: 100%;
+    }
 }
 
 @media (max-width: 662px) {
@@ -435,7 +442,7 @@ margin: 0 auto;
     .btn-bloc4{
         bottom: 1px;
     }
-
+    
     #bloc-5{
         display: none;
     }
